@@ -1,8 +1,4 @@
-Here is a **clean, professional, and college-ready README.md** for an **E-Commerce Dress Shop Website** built using **HTML, CSS, JavaScript, Bootstrap, and jQuery**, including **responsive design** and **dress filtering using Bootstrap**.
 
-You can **copy & paste** this directly into your `README.md`.
-
----
 
 # 👗 Dress Shop E-Commerce Website
 
