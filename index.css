@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --lg-font:'Kaisei Tokumin',serif;
+    --sm-font:"Poppins",sans-serif;
+    --pink:#e5345b;
+}
+
+body
+{
+    font-family: var(--sm-font);
+}
+
+.icons .bg-primary
+{
+    background-color:var(--pink)!important;
+}
+
+/* navbar */
+
+.navbar
+{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,.1);
+}
+.navbar img
+{
+    width: 30px;
+}
+.navbar-brand span
+{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+#navbarSupportedContent .nav-link:hover{
+    color: var(--pink);
+    transition: all 0.5s;
+}
+
+@media (max-width:580px) {
+#navbarSupportedContent .nav-link:hover{
+    color: var(--pink);
+    transition: all 0.5s;
+    transform: translateX(5px);
+    background:#000;
+    padding-left: 16px;
+}
+}
+
+
+/* header section */
+
+
+#header
+{
+    background: url(/images/banner-img-1.jpg) top/cover no-repeat;
+}
+.btnstyle
+{
+    background: #fff !important;
+    border: 15px;
+    outline: none !important;
+}
+.btnstyle:hover
+{
+transition: all 0.5s !important;
+background: var(--pink) !important;
+color: #fff !important;
+
+}
+.carousel-inner h1
+{
+    font-family: var(--lg-font);
+    letter-spacing: 3px;
+
+}
+.carousel-inner h2
+{
+    font-family: var(--sm-font);
+}
+.line::before
+{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -20px;
+    height: 40px;
+    width: 4px;
+    background: var(--pink);
+    transform: translateY(-50%);
+}
+#starts i{
+    font-size: 12px;
+    color: var(--pink);
+}
+
+#salestage{
+    top: 0;
+    right: 0;
+    margin: 20px;
+    padding: 4px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: var(--sm-font);
+    font-size: 15px;
+}
+
+#salestage::before
+{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: var(--pink);
+    top: -4px;
+    left: 0;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.card .btn-primary{
+    background: var(--pink) !important;
+}
+.active-filter-btn{
+    background-color: var(--pink)!important;
+    color: #fff !important;
+    border-color: #e5345b !important;
+    
+}
+.specail-img span{
+    top: 20px;
+    right: 20px;
+    color: var(--pink) !important;
+}
+.specail-img img{
+    transition: all 0.5s ease;
+}
+.specail-img:hover img{
+    transform: scale(1.2);
+}
+#offers
+{
+    background:url(/images/offer_img.jpg) center/cover no-repeat;
+}
+#offers .row
+{
+    min-height: 60vh;
+}
+.offer-content span
+{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.offer-content h2{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.about-img:hover img{
+    transform: scale(1.2);
+}
+.about-img img
+{
+    transition: all 0.5s ease;
+}
+
+#newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group
+{
+    max-width: 600px;
+}
+#newsletter input
+{
+    border-color:var(--pink) ;
+}
+#newsletter button
+{
+    background:var(--pink) !important;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    border-color: var(--pink);
+}
+#newsletter button:hover
+{
+    background-color:#000 !important;
+    border-color: #000;
+}
+#about
+{
+    background:#e5e5e5;
+}
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer p
+{
+    color: white !important;
+}
